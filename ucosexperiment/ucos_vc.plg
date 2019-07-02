@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ucos_vc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /ML /W3 /Gm /GX /ZI /I "UCOS/CPU" /I "UCOS/SOURCE" /I "user" /I "UCOS/CONFIG" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"OUTPUT/Debug/" /Fp"OUTPUT/Debug/ucos_vc.pch" /YX /Fo"OUTPUT/Debug/" /Fd"OUTPUT/Debug/" /FD /I /GZ /c 
+"D:\2012\ucosexperiment\UCOS\CPU\os_cpu.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_core.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_flag.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_mbox.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_mem.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_mutex.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_q.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_sem.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_task.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_time.c"
+"D:\2012\ucosexperiment\UCOS\SOURCE\os_tmr.c"
+"D:\2012\ucosexperiment\user\usercode.c"
+"D:\2012\ucosexperiment\main.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.tmp" with contents
+[
+kernel32.lib user32.lib winmm.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib /nologo /subsystem:console /incremental:yes /pdb:"OUTPUT/Debug/ucos_vc.pdb" /debug /machine:I386 /out:"OUTPUT/Debug/ucos_vc.exe" /pdbtype:sept 
+.\OUTPUT\Debug\os_cpu.obj
+.\OUTPUT\Debug\os_core.obj
+.\OUTPUT\Debug\os_flag.obj
+.\OUTPUT\Debug\os_mbox.obj
+.\OUTPUT\Debug\os_mem.obj
+.\OUTPUT\Debug\os_mutex.obj
+.\OUTPUT\Debug\os_q.obj
+.\OUTPUT\Debug\os_sem.obj
+.\OUTPUT\Debug\os_task.obj
+.\OUTPUT\Debug\os_time.obj
+.\OUTPUT\Debug\os_tmr.obj
+.\OUTPUT\Debug\usercode.obj
+.\OUTPUT\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.tmp"
+<h3>Output Window</h3>
+Compiling...
+os_cpu.c
+os_core.c
+os_flag.c
+os_mbox.c
+os_mem.c
+os_mutex.c
+os_q.c
+os_sem.c
+os_task.c
+os_time.c
+os_tmr.c
+usercode.c
+main.c
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF7.tmp" with contents
+[
+/nologo /o"OUTPUT/Debug/ucos_vc.bsc" 
+.\OUTPUT\Debug\os_cpu.sbr
+.\OUTPUT\Debug\os_core.sbr
+.\OUTPUT\Debug\os_flag.sbr
+.\OUTPUT\Debug\os_mbox.sbr
+.\OUTPUT\Debug\os_mem.sbr
+.\OUTPUT\Debug\os_mutex.sbr
+.\OUTPUT\Debug\os_q.sbr
+.\OUTPUT\Debug\os_sem.sbr
+.\OUTPUT\Debug\os_task.sbr
+.\OUTPUT\Debug\os_time.sbr
+.\OUTPUT\Debug\os_tmr.sbr
+.\OUTPUT\Debug\usercode.sbr
+.\OUTPUT\Debug\main.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF7.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ucos_vc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

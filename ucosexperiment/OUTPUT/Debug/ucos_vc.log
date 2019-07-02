@@ -1,0 +1,30 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  usercode.c
+g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(469): warning C4474: printf: 格式字符串中传递的参数太多
+  g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(469): note: 占位符和其参数预计 0 可变参数，但提供的却是 2 参数
+g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(483): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(483): note: 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+  g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(483): note: 缺失的可变参数 1 为格式字符串“%d”所需
+g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(503): warning C4474: printf: 格式字符串中传递的参数太多
+  g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(503): note: 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(511): warning C4474: printf: 格式字符串中传递的参数太多
+  g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(511): note: 占位符和其参数预计 0 可变参数，但提供的却是 2 参数
+g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(586): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+  g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(586): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  g:\school\大三\嵌入式\ucosexperiment\user\usercode.c(586): note: 缺失的可变参数 2 为格式字符串“%d”所需
+  os_tmr.c
+  os_time.c
+  os_task.c
+  os_sem.c
+  os_q.c
+  os_mutex.c
+  os_mem.c
+  os_mbox.c
+  os_flag.c
+  os_core.c
+  os_cpu.c
+  main.c
+g:\school\大三\嵌入式\ucosexperiment\main.c(67): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  e:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+  正在生成代码...
+  ucos_vc.vcxproj -> G:\School\大三\嵌入式\ucosexperiment\.\OUTPUT/Debug\ucos_vc.exe
