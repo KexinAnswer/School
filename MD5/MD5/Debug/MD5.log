@@ -1,0 +1,5 @@
+﻿  main.cpp
+  MD5.cpp
+g:\learning\项目\md5\md5\md5.cpp(41): warning C4244: “=”: 从“std::streamsize”转换到“size_t”，可能丢失数据
+  正在生成代码...
+  MD5.vcxproj -> G:\Learning\项目\MD5\Debug\MD5.exe
