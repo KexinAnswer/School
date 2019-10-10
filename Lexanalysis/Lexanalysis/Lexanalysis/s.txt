@@ -1,0 +1,8 @@
+int main() {
+	int a, b;
+	a = 30;
+	if (a > b) {
+		a = a * b;
+	}
+	return 0;
+}

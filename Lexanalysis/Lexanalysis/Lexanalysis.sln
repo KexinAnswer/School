@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lexanalysis", "Lexanalysis\Lexanalysis.vcxproj", "{698553A4-EC83-4327-B71B-6C956572384A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{698553A4-EC83-4327-B71B-6C956572384A}.Debug|x64.ActiveCfg = Debug|x64
+		{698553A4-EC83-4327-B71B-6C956572384A}.Debug|x64.Build.0 = Debug|x64
+		{698553A4-EC83-4327-B71B-6C956572384A}.Debug|x86.ActiveCfg = Debug|Win32
+		{698553A4-EC83-4327-B71B-6C956572384A}.Debug|x86.Build.0 = Debug|Win32
+		{698553A4-EC83-4327-B71B-6C956572384A}.Release|x64.ActiveCfg = Release|x64
+		{698553A4-EC83-4327-B71B-6C956572384A}.Release|x64.Build.0 = Release|x64
+		{698553A4-EC83-4327-B71B-6C956572384A}.Release|x86.ActiveCfg = Release|Win32
+		{698553A4-EC83-4327-B71B-6C956572384A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42F577CC-9AC1-48A2-83EE-1BF2F0BE6C75}
+	EndGlobalSection
+EndGlobal
