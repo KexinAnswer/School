@@ -166,24 +166,18 @@ void TakeWord() {  //取单词
 int main() {
 	char w;
 	int i, j;
-
-	freopen("s.txt", "r", stdin);
-	freopen("result.txt", "w", stdout); //从控制台输出，而不是文本输出
-
+	
 	length = 0;
-	while (cin >> w) {
+	std::cout << " # 代表程序结束 请输入程序:" << std::endl;
+	while (cin >> w && w != '#') {
 		if (w != ' ') {
 			letter[length] = w;
 			length++;
 		}   //去掉程序中的空格
 	}
+	std::cout << "******************词法分析如下************************" << std::endl;
 
 	TakeWord();
-	//  for(j=0;j<length;j++){
-	//      cout<<letter[j]<<endl;
-	//  } 
-
-	fclose(stdin);//关闭文件 
-	fclose(stdout);//关闭文件 
+	
 	return 0;
 }
